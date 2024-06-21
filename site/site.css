@@ -1,0 +1,76 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Poppins' ,sans-serif;
+}    
+
+
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(image/IMG-20240611-WA0000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 75px 0px;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-top: 2rem;
+}
+
+.form-box input{
+    border-radius: 10px;
+}
+
+.form-box select{
+    border-radius: 10px;
+}
+
+.form-box input:focus{
+    box-shadow: 0 0 0;
+    border: 1px solid #f6288c;
+}
+
+.text  .txt{
+    color: #386641;
+}
+
+.form-box form .wrapper{
+    color: #386641;
+}
+
+.register-btn{
+    background-image: linear-gradient(to right, #f4A261 , #F4A261 , #F4A261);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 40px;
+    background-color: #386641;
+    top: 50%;
+}
+
+
+@media screen and (max-width: 992px){
+    .text{
+        margin-bottom: 40px;
+    }
+}
+
+
+
